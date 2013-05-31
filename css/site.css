@@ -148,3 +148,10 @@ em {
     color:#DD9D92;
     border-bottom:1px solid #E9B7AE;
 }
+
+blockquote {
+    margin:0;
+    padding:10px;
+    background:#eee;
+    font-size:small;
+}
