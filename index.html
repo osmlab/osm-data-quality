@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OpenStreetMap Data Quality</title>
+        <link rel='stylesheet' type='text/css' href='css/style.css' />
+        <link rel='stylesheet' type='text/css' href='css/site.css' />
+        <meta http-equiv='content-type' content='text/html; charset=utf-8' />
+        <meta name='viewport' content='initial-scale=1.0 maximum-scale=1.0'>
+    </head>
+    <body>
+        <div class='col12 fillG clearfix fl'>
+            <div class='pad8 col6 margin3 center'>
+                <h2>OpenStreetMap Data Quality</h2>
+                <p>
+                how the world's biggest open map stays correct
+                </p>
+            </div>
+        </div>
+        <div class='pad2 col12 fillE clearfix center deemphasize fl'>
+            <a href='https://github.com/osmlab/osm-data-quality/'>this is a beta website. you can make it better with suggestions and contributions.</a>
+        </div>
+        <div class='col12 clearfix fl'>
+            <div class='pad4 col8 margin2'>
+                <h3>Vandalism</h3>
+                <div class='col5'>
+                    <p>
+                    Anyone can create an account on OpenStreetMap and start
+                    editing immediately.
+                    </p>
+                    <p>This means that some people with bad
+                    intentions make malicious edits, creating places that
+                    don't exist, deleting places that do, or adding incorrect
+                    information.
+                    </p>
+                </div>
+                <div class='col5 margin1'>
+                    <p>
+                    To combat vandalism, OpenStreetMap superusers track
+                    recent changes constantly and flag changes that look wrong.
+                    </p>
+                    <p>
+                    They can then revert - or undo - incorrect changes and notify
+                    the user. Users that repeatedly vandalize the map
+                    can have their editing rights suspended or removed entirely.
+                    </p>
+                </div>
+            </div>
+            <div class='pad4 col8 margin2'>
+                <h3>Missing Details</h3>
+                <div class='col5'>
+                    <p>
+                    Since there's no perfect map of the world to compare
+                    ours to, finding areas where data is missing is difficult.
+                    </p>
+                    <p>
+                    Data is often partial - a road is present, but unnamed, or
+                    a building lacks basic details that let it be categorized.
+                    </p>
+                </div>
+                <div class='col5 margin1'>
+                    <p>
+                    OpenStreetMap has multiple tools to score itself and identify
+                    missing data. The <a href='http://qa.poole.ch/'>No Name</a>
+                    layer highlights all roads without names and buildings
+                    without addresses. <a href='http://www.mapbox.com/foursquare-checkins/'>A worldwide concordance</a>
+                    of Foursquare checkins versus OpenStreetMap data shows
+                    areas where people are and data isn't.
+                    </p>
+                </div>
+            </div>
+            <div class='pad4 col8 margin2'>
+                <h3>Routing Problems</h3>
+                <div class='col5'>
+                    <p>
+                    One of the most important uses of OpenStreetMap is for
+                    routing: tools like <a href='http://map.project-osrm.org/'>OSRM</a>
+                    and <a href='http://open.mapquest.com/'>MapQuest Open</a> provide
+                    driving directions based on of its data.
+                    </p>
+                    <p>
+                    Problems with this routing network are invisible to other
+                    users of the map, and can include disconnected roads,
+                    improper turn restrictions, and unmarked speed limits.
+                    </p>
+                </div>
+                <div class='col5 margin1'>
+                    <p>
+                    A number of tools automatically comb through OSM data to
+                    find potential routing issues. <a href='http://maproulette.org/'>MapRoulette</a>
+                    finds highways without lane counts or speed limits, while
+                    <a href='http://keepright.at/report_map.php?zoom=12&lat=39.95356&lon=-75.12364'>Keep Right</a>
+                    identifies many more routing issues, like unreachable roads
+                    oneway roads that dead-end.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class='pad2 drop col12 fillE clearfix center deemphasize fl'>
+            <a href='https://github.com/osmlab/osm-data-quality/'>this site is open source. help us make it better.</a>
+        </div>
+    </body>
+</html>
